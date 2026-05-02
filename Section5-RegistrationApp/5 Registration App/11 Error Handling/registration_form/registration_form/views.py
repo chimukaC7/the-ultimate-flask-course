@@ -13,7 +13,7 @@ def index(member_id):
 
     member = None
     if member_id:
-        member = Member.query.get_or_404(member_id)
+        member = Member.query.get_or_404(member_id) # The get_or_404() method is a convenient way to retrieve an object from the database and automatically return a 404 error if the object does not exist. In this case, if there is no member with the given member_id, the user will see a 404 error page instead of a blank page or an error message.
 
     errors = {}
 

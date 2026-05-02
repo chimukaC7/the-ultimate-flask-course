@@ -49,7 +49,7 @@
             <div class="field">
                 <label class="label">When Did You First Learn to Code?</label>
                 <div class="control">
-                    <input class="input" type="date" name="first_learn_date" {% if member %}value="{{ member.first_learn_date.strftime('%Y-%m-%d') }}" {% endif %}>
+                    <input class="input" type="date" name="first_learn_date" {% if member %} value="{{ member.first_learn_date.strftime('%Y-%m-%d') }}" {% endif %}>
                 </div>
                 <p class="help is-danger">{{ errors.get('first_learn_date', '') }}</p>
             </div>
@@ -60,7 +60,7 @@
                     <div class="select">
                         <select name="fav_language">
                             {% for language in languages %}
-                              <option value="{{ language.id }}" {% if member.fav_language== language.id %}selected{% endif %}>{{ language.name }}</option>
+                                <option value="{{ language.id }}" {% if member.fav_language == language.id %} selected {% endif %}>{{ language.name }}</option>
                             {% endfor %}
                         </select>
                     </div>
