@@ -8,6 +8,16 @@ activate virtual environment
 source .venv/bin/activate
 ```
 
+access virtual environment on windows
+```bash
+source .venv/bin/activate
+``` 
+
+deactivate virtual environment
+```bash
+deactivate
+```
+
 install dependencies
 ```bashbash
 pip install -r requirements.txt
