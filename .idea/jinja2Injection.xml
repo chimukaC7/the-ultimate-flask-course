@@ -4,6 +4,9 @@
     <option name="enabledFiles">
       <set>
         <option value="$PROJECT_DIR$/Section5-RegistrationApp/5 Registration App/11 Error Handling/registration_form/registration_form/templates/form.html" />
+        <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/index.html" />
+        <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/register.html" />
+        <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/tables.html" />
       </set>
     </option>
   </component>
