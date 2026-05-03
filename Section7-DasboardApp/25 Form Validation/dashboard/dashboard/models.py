@@ -61,7 +61,7 @@ class Order(db.Model):
 
         return revenue_per_product
 
-class User(db.Model, UserMixin):
+class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(50))
     email_address = db.Column(db.String(50))

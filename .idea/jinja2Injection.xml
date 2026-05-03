@@ -4,9 +4,15 @@
     <option name="enabledFiles">
       <set>
         <option value="$PROJECT_DIR$/Section5-RegistrationApp/5 Registration App/11 Error Handling/registration_form/registration_form/templates/form.html" />
+        <option value="$PROJECT_DIR$/Section7-DasboardApp/25 Form Validation/dashboard/dashboard/templates/index.html" />
+        <option value="$PROJECT_DIR$/Section7-DasboardApp/25 Form Validation/dashboard/dashboard/templates/tables.html" />
         <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/index.html" />
         <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/register.html" />
         <option value="$PROJECT_DIR$/Section7-DasboardApp/7 Dashboard/25 Form Validation/dashboard/dashboard/templates/tables.html" />
+        <option value="$PROJECT_DIR$/Section8-FoodTrackerApp/templates/add_food.html" />
+        <option value="$PROJECT_DIR$/Section8-FoodTrackerApp/templates/base.html" />
+        <option value="$PROJECT_DIR$/Section8-FoodTrackerApp/templates/day.html" />
+        <option value="$PROJECT_DIR$/Section8-FoodTrackerApp/templates/home.html" />
       </set>
     </option>
   </component>

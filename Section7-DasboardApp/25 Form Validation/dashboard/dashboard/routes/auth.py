@@ -31,7 +31,7 @@ def login():
 def register():
     error_message = ''
 
-    if request.method == 'POST':
+    if request.method == 'POST': 
         first_name = request.form.get('first_name')
         last_name = request.form.get('last_name')
         email_address = request.form.get('email_address')

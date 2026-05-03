@@ -6,6 +6,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Section6-RegistrationAPI/4 Get Members Route/registration_form" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Section7-DasboardApp/3 Create Models for Dashboard/dashboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Section7-DasboardApp/7 Dashboard/3 Create Models for Dashboard/dashboard" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
