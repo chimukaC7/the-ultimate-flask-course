@@ -22,6 +22,7 @@ def index():
         db.execute('insert into log_date (entry_date) values (?)', [database_date])
         db.commit()
 
+    # use trip quotes to
     cur = db.execute('''select log_date.entry_date, sum(food.protein) as protein, sum(food.carbohydrates) as carbohydrates, sum(food.fat) as fat, sum(food.calories) as calories 
                         from log_date 
                         left join food_date on food_date.log_date_id = log_date.id 
@@ -41,8 +42,8 @@ def index():
         single_date['fat'] = i['fat']
         single_date['calories'] = i['calories']
 
-        d = datetime.strptime(str(i['entry_date']), '%Y%m%d')
-        single_date['pretty_date'] = datetime.strftime(d, '%B %d, %Y')
+        d = datetime.strptime(str(i['entry_date']), '%Y%m%d')#this is going to convert the date from the database into a datetime object so that we can format it in a more readable way
+        single_date['pretty_date'] = datetime.strftime(d, '%B %d, %Y')#this is going to be used in the template to show the date in a more readable format
 
         date_results.append(single_date)
 
